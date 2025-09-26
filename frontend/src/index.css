@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
+
+.Card{
+  margin-top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:20rem;
+  height:20rem;
+  border: solid 2px;
+  border-radius: 5px;
+  box-shadow:5px 5px 5px 5px #a6a6a6;
+  border-color: #a6a6a6;
+  background-color:  #f2f2f2
+}
+
+.Title{
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Spicy Rice", serif;
+}
+
+.Form{
+  margin-top: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.FormInput{
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.Botao{
+  margin-top: 8px;
+  border: none;
+  background-color: #99ceff;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Botao:hover{
+  margin-top: 5px;
+  border: none;
+  background-color: #99ceff;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #a6a6a6;
+}
+
+.Items{
+  list-style: none;
+}
